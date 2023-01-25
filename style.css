@@ -74,6 +74,7 @@ h3 {
 
 #passwords {
   display: flex;
+  height: 10rem;
 }
 
 .password-result {
@@ -82,10 +83,13 @@ h3 {
   padding: 2rem;
   margin: 3rem;
   width: 18rem;
-  /* height: 6rem; */
+
   background-color: #273549;
   color: #55f991;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
